@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+    background-color: #ffd7cc; /* Soft pink background */
+    color: #bf2626; /* Kontras ungu */
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1280px;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #082098;
+    margin: 0;
+    font-weight: bold; /* Lebih tegas */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+header .tagline {
+    font-size: 1.2em;
+    color: #ff4040;
+    text-align: center;
+}
+
+main {
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #f6fff0; /* Lighter pink */
+    border: 3px solid #72ff77; /* Border solid pink */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: justify;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img.p{
+    width: 25%;
+    border-radius: 30px;
+    align-content: center;
+}
+
+img.shadow{
+    width: 40%;
+    border-radius: 0px;
+    border: 3px solid pink;
+    padding: 5px;
+    align-content: center;
+}
+
+img.shadow:hover{
+    box-shadow: 20px 20px 10px rgb(144, 6, 3);
+}
+
+h2 {
+    color: #d40000; /* Deep pink */
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    margin-top: -20px; /* Atur jarak agar keluar dari box */
+    z-index: 1; /* Pastikan berada di atas elemen lain */
+    background-color: transparent; /* Hapus warna latar belakang */
+}
+
+.content-box {
+    background-color: #ffac5e; /* Lighter pink */
+    border: 3px solid #c72222; /* Border solid pink */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffc0cb; /* Light pink */
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+    transform: scale(1.05); /* Efek hover */
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffb6c1; /* Warna berubah saat dihover */
+}
+
+footer {
+    background-color: #ff4040; /* Bright pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
